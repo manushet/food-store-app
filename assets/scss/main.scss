@@ -273,14 +273,21 @@ table th {
 // toast
 
 .toast {
-  background: #a8060e;
   color: white;
   border-radius: 3px;
   padding: 12px 24px;
   position: absolute;
-  top: 0;
+  top: 55px;
   right: 0;
   text-align: center;
+
+  &.error {
+    background: #a8060e;
+  }
+
+  &.success {
+      background: #056100;
+  }
 
   a {
     color: white;
